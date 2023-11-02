@@ -111,7 +111,7 @@ h6 {
 
 .heading {
   font-size: 4.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   font-weight: 400;
 }
 
@@ -167,9 +167,6 @@ h6 {
 }
 
 @media screen and (max-width: 50em) {
-  .logo {
-  }
-
   .heading {
     font-size: 4rem;
   }
@@ -178,18 +175,53 @@ h6 {
     flex-direction: column;
     gap: 2.5rem;
   }
+
+  .hero {
+    margin-bottom: 6rem;
+  }
 }
 
 @media screen and (max-width: 37.5em) {
   .heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .flag {
+    width: 20rem;
+  }
+
   .button {
-    padding: 1rem 2rem;
     font-size: 2rem;
   }
 
   .footer {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 28.125em) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  body {
+    max-width: 90vw;
+  }
+
+  .cta {
+    gap: 1.5rem;
+  }
+
+  .button {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
