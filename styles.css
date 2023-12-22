@@ -39,7 +39,7 @@ body {
   margin: 0 auto;
 
   -webkit-font-smoothing: antialiased;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Figtree', sans-serif;
 }
 /*
   5. Improve media defaults
@@ -158,7 +158,8 @@ h6 {
 }
 
 .flag {
-  width: 25rem;
+  width: 40rem;
+  text-align: center;
   display: inline-block;
   height: auto;
   margin: 0 auto;
