@@ -146,3 +146,14 @@ h6 {
   background-color: #fff;
   color: black;
 }
+
+@media screen and (max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media screen and (max-width: 28.125em) {
+  html {
+    font-size: 43.75%;
+  }
+}
