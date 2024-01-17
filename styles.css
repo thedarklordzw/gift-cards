@@ -95,6 +95,12 @@ h6 {
 
 .affiliate {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading {
@@ -137,7 +143,7 @@ h6 {
   font-weight: 900;
   outline: 0;
   text-transform: uppercase;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   transition: all 300ms ease-in;
   box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.5);
 }
