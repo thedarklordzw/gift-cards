@@ -97,7 +97,7 @@ h6 {
 .affiliate {
   text-align: center;
   height: 100vh;
-  width: 100vw;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,5 +162,10 @@ h6 {
 @media screen and (max-width: 28.125em) {
   html {
     font-size: 43.75%;
+  }
+}
+@media screen and (max-width: 25em) {
+  html {
+    font-size: 37.5%;
   }
 }
