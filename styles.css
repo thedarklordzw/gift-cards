@@ -32,7 +32,7 @@ body {
   align-items: center;
   text-transform: uppercase;
   height: 100vh;
-  background: url('./coupon-bg.webp');
+  /* background: url('./coupon-bg.webp'); */
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
